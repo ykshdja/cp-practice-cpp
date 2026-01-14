@@ -1,0 +1,1 @@
+{"version":2,"solutionFiles":{"Utils/main.cpp":{"pathString":"Utils/main.cpp","linkedProblemId":null,"testcases":[{"name":"Testcase #1","input":"input 5","output":"output 25"},{"name":"Testcase #2","input":"input 10","output":"output 20"},{"name":"Testcase #3","input":"input \n20","output":"output \n400"}]}}}

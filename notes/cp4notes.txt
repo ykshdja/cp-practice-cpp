@@ -1,0 +1,103 @@
+There are 3458 problems -
+7 starred Problems 
+3 problems of every category
+
+
+Quickly Identify the problem type
+
+Ad Hoc Section 1.4-1.6 1-2
+(Heavy) Data Structure Chapter 2 0-1
+Complete Search (Iterative/Recursive) Section 3.2++ 1-2
+Divide and Conquer Section 3.3 0-1
+Greedy (the non-classic ones) Section 3.4 1
+Dynamic Programming (the non-classic ones) Section 3.5++ 1-2
+Graph (except Network Flow/Graph Matching) Chapter 4 1
+Mathematics Chapter 5 1-2
+String Processing Chapter 6 1
+Computational Geometry Chapter 7 1
+ Some Harder/Rare/Emerging Trend Problems Chapter 8-9 2-3
+
+Algorithm Analysis - 
+
+
+
+1. Basic Time and Space Complexity - 
+ Time -
+ K nested loops - O(n^k).
+ b recursive calls per level and has L Levels - O(b^L) complexity.
+ Binary Search over a range [1..n] has O(Log(n)) complexity
+ DP Algorithm or an iterative routine over a 2D n x n  matrix in O(k) per cell runs in O(k x n^2).
+
+ 2. Advanced Algorithm analysis - 
+ - Prove the correctness of an algorithm
+ - Perform the armotized Analysis
+ - Output-sensitive analysis(output size) - 'Time Limit Exceeded'
+
+
+ 3. Upper Bounds - 
+ - 2^10 = 1024 = 10^3
+ - 2^20 = 1048576 = 10^6
+ - 32 bit integer (int) - 
+ - 64 bit integer (long long) - 
+ - Store integers bigger than 2^64 use BigIntegers
+ - largest input size n is usually < 1M. Beyond that I/O routine will bottleneck.
+
+ - gcc has a built-in __int28 - rarely used.
+ - refrain from coding until yo get both DS and Algo correct and fast enough.
+
+__________________________________________________________________
+Exercise 1.3.3.1 - 
+
+Q1) There are n webpages (n < 10M). A new page can be added or an existing page can be removed frequently.
+You want to pick the current top 10 pages with the highest page ranks.
+
+1. Load n webpages' page rank to memory, sort in descending page rank order, and obtain current top 10.
+
+2. Use a Priority Queue
+
+3. Use QuickSelect Algorithm
+
+Ans - Priority Queue will help get the max rank quickly - 
+Time Complexity - O(k log (N)) per top-k Query.
+
+
+--------------------------------------------------
+
+Q2) Given a list of 100K integers, obtain sum(i,j) i.e., the 
+SUM of L[i]+L[i+1]+....+L[j].
+
+- Which DS would you use?
+
+Ans. Simple Array with Dynamic programming - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
